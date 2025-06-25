@@ -1,13 +1,16 @@
-import logo from './logo.svg';
-import './output.css';
+import Hero from './components/Hero';
+import Navbar from './components/Navbar';
+import './index.css';
+
 
 function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-r from-purple-500 to-pink-500 flex items-center justify-center text-white text-4xl font-bold">
-      Tailwind is working!
+    <div className="min-h-screen">
+      <Navbar />
+      <Hero />
     </div>
-
   );
 }
+
 
 export default App;
